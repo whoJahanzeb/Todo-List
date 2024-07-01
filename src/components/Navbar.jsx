@@ -3,7 +3,7 @@ function Navbar() {
     <>
       <main className="shadow-md">
         <nav className="flex items-center justify-between max-w-7xl mx-auto py-2">
-          <div className="w-20 h-20 flex items-center justify-center bg-purple-50 rounded-full text-lg font-semibold">
+          <div className="w-20 h-20 flex items-center justify-center bg-purple-500 rounded-full text-lg font-semibold text-white">
             Todo List
           </div>
           <div>
