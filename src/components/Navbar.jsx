@@ -3,13 +3,8 @@ function Navbar() {
     <>
       <main className="shadow-md">
         <nav className="flex items-center justify-between max-w-7xl mx-auto py-2">
-          <div className="w-20 h-20">
-            <img
-              src="src\assets\images\School-Logo.jpg"
-              alt=""
-              srcset=""
-              className="rounded-full"
-            />
+          <div className="w-20 h-20 flex items-center justify-center bg-purple-50 rounded-full text-lg font-semibold">
+            Todo List
           </div>
           <div>
             <ul className="flex items-center space-x-5">
