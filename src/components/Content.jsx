@@ -10,6 +10,10 @@ function Content() {
   }
 
   function handleSubmit(e) {
+    if (inputValue === "") {
+      alert("Please enter your task");
+      return;
+    }
     e.preventDefault();
     setTodos([...todos, inputValue]);
     setInputValue("");
